@@ -1,94 +1,67 @@
 *{
 	box-sizing: border-box;
-	margin:0;
+	margin: 0;
 	padding: 0;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	
 }
 
-.container{
+body{
 	width: 90%;
-	margin-top:5%;
-	margin-left: auto;
-	margin-right: auto;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 15px;
 }
 
 h1{
-	font-style: normal;
-	font-size: 24px;
-	font-weight: bold;
 	text-align: center;
+	color: black;
+	font-size: 28px;
 	margin-top: 25px;
 	margin-bottom: 25px;
-	padding: 10px;
 }
 
-h3{
-	width: 110px;
-	font-style: normal;
-	font-size: 14px;
-	font-weight: bold;
-	padding: 5px;
-	border: 2px solid black;
+h2{
+	font-size: 16px;
 	text-align: center;
+	border: 2px solid black;
+	width: 120px;
+	height: 30px;
 	float: right;
+	padding: 4px;
+	display: block;
+	margin-top: -12px;
+	margin-bottom: 10px;
 	margin-right: -12px;
-	margin-top: -2px;
-	margin-bottom: 15px;
 }
 
-.chicken h3{
+h2.burritos{
 	background-color: #D59898;
 	color: black;
 }
 
-.veggies h3{
+h2.falafel{
 	background-color: #C14543;
 	color: white;
 }
 
-.sushi h3{
+h2.sushi{
 	background-color: #E5D198;
 	color: black;
 }
 
-.chicken{
-	width: 32.33%;
-	height: 150px;
+.section{
 	border: 2px solid black;
-	padding: 0px 10px 10px 10px;
+	max-width: 100%;
+	height: 150px;
 	float: left;
 	overflow: hidden;
-	background-color: #999999;
-	margin: .5%; 	
-}
-
-.veggies{
-	width: 32.33%;
-	height: 150px;
-	border: 2px solid black;
-	padding: 0px 10px 10px 10px;
-	float: left;
-	overflow: hidden;
-	background-color: #999999;
-	margin: .5%;
-}
-
-.sushi{
-	width: 32.33%;
-	height: 150px;
-	border: 2px solid black;
-	padding: 0px 10px 10px 10px;
-	float: left;
-	overflow: hidden;
-	background-color: #999999;
-	margin: .5%;
+	padding: 10px;
+	margin: 10px;
+	background-color: #e6e6e6;
 }
 
 p{
-	font-size: 14px;
+	font-size: 13px;
+	color: black;
 	clear: right;
-	overflow: hidden;
 }
 
 .row{
@@ -96,7 +69,7 @@ p{
 }
 
 /* Media Queries - for large screens*/
-	@media (max-width: 992px){
+	@media (min-width: 992px){
 		.col-lg-1, .col-lg-2,.col-lg-3, .col-lg-4,	.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8,
 		.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
 
@@ -116,7 +89,6 @@ p{
 
 		{
 			float: left;
-			border: 2px solid red;
 		}
 		.col-md-1{width:8.33%;} .col-md-2{width:16.66%;} .col-md-3{width:25%;} .col-md-4{width:33.33%;}
 		.col-md-5{width:41.66%;} .col-md-6{width:50%;} .col-md-7{width:58.33%;} .col-md-8{width:66.66%;}
