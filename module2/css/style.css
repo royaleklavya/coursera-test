@@ -6,8 +6,8 @@
 
 body{
 	width: 90%;
+	margin: 0 auto;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	margin: 15px;
 }
 
 h1{
