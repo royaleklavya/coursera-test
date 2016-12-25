@@ -1,0 +1,136 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Josefin Slab', serif;
+	background-color: #D1633F;
+	font-size: 16px;
+	color:#fff;
+	padding-top: 120px; 
+}
+
+#header-nav{
+	border:0;
+	border-radius: 0;
+	background-color: #3B3738;
+	box-shadow: 0px 2px #222;
+}
+
+
+a.navbar-brand h1{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+#nav-list a{
+	color:#FFFFFF;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#nav-list a:hover, #nav-list a:focus{
+	background-color: #D1633F;
+	color: #ffe700;
+	text-decoration: none;
+	box-shadow: none;
+}
+
+#phone a{
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 10px;
+	margin-left: 60px;
+	margin-bottom: -25px;
+	background-color: #118D4F;
+	box-shadow: 2px 5px #222;
+}
+
+#phone-xs a{
+	font-weight: bold;
+	font-size: 1.2em;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+}
+
+#phone-xs a:hover, #phone-xs a:focus{
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icone-bar{
+	border: 3px solid #D1633F;
+	margin-bottom: 20px;
+}
+
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -10px;
+	background-color: #F1AA7E;
+}
+
+
+.row h1{
+	text-align: center;
+	color: black;
+	font-size: 1.9em;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+.section h3{
+	font-size: 1.4em;
+}
+
+.section{
+	background-color: #e6e6e6;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	max-width: 100%;
+	float: left;
+	overflow: hidden;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 2px 2px 5px #222;
+}
+
+.section a:hover, .section a:focus{
+	text-decoration: none;
+}
+
+
+p{
+	font-size: .9em;
+	color: black;
+	text-align: justify;
+}
+
+.row{
+	width: 100%;
+}
+
+/** Media Queries **/
+@media(min-width: 1200px){
+	
+	.center-block {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+}
+
+@media(max-width: 767px){
+	
+	#collapse-nav a{
+		font-size: 1.2em;
+	}
+	#collapse-nav a span{
+		font-size: 1em;
+		margin-right: 5px;
+	}
+}
